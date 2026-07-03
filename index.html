@@ -1,73 +1,227 @@
-<!DOCTYPE html><!It means we are using HTML5!>
-<html lang="en"><!language of the document is English!>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8"><!Allows the page to display symbols, emojis, and characters correctly!>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!Used for responsive design!>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhavya Srivastava | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link>
-    <script src="script.js"></script>
 </head>
+
 <body>
+
+    <!-- ================= NAVBAR ================= -->
+
     <header>
-      <main>
 
-    <section class="hero" id="home">
+        <nav class="navbar">
 
-        <div class="hero-content">
+            <div>
+                <h2>Bhavya Srivastava</h2>
+            </div>
 
-            <h3>Hello, I'm</h3>
+            <ul class="nav-links">
 
-            <h1>Bhavya Srivastava</h1>
+                <li><a href="#home">Home</a></li>
 
-            <h2>Frontend Developer </h2>
+                <li><a href="#about">About</a></li>
 
-            <p>
-                I enjoy transforming ideas into interactive and user-friendly web experiences.
-                <div>Alongside frontend development, I continuously strengthen my problem-solving skills through Java and Data Structures & Algorithms. I love learning by building real-world projects and exploring new technologies.
-            </div> </p>
+                <li><a href="#skills">Skills</a></li>
 
-            <div class="hero-buttons">
 
-                <a href="#" class="btn primary-btn">Download Resume</a>
+                <li><a href="#contact">Contact</a></li>
 
-                <a href="#projects" class="btn secondary-btn">View Projects</a>
+
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <h3>Hi, I'm </h3>
+
+                <h2> a Frontend Developer.</h2>
+
+                <p>
+                    I enjoy building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+                    <br>
+                    I'm currently improving my frontend development skills while consistently practicing Data Structures
+                    & Algorithms using Java.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="assets/Resume_New.pdf" target="_blank" class="btn primary-btn">
+                        View Resume
+                    </a>
+
+                    <a href="#projects" class="btn secondary-btn">
+                        View Projects
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
+            <div class="hero-image">
 
-        <div class="hero-image">
+                <img src="images/profile.png" alt="Developer Illustration">
 
-            <img src="images/profile.png" alt="Profile Illustration">
+            </div>
 
-        </div>
+        </section>
 
-    </section>
+        <!-- ================= ABOUT ================= -->
 
-</main> 
-    <nav class="navbar">
+        <section id="about" class="about">
 
-        <div class="logo">
-            Bhavya.
-        </div>
+            <div class="section-title">
 
-        <ul class="nav-links">
+                <h2>Who I Am</h2>
 
-            <li><a href="#home">Home</a></li>
+                <p>A quick introduction about who I am and what I enjoy building.</p>
 
-            <li><a href="#about">About</a></li>
+            </div>
 
-            <li><a href="#skills">Skills</a></li>
+            <div class="about-content">
 
-            <li><a href="#projects">Projects</a></li>
+                <div class="about-text">
 
-            <li><a href="#contact">Contact</a></li>
+                    <p>
+                        I'm a B.Tech Information Technology student with a strong interest in
+                        frontend development and problem-solving.
+                    </p>
 
-        </ul>
+                    <p>
+                        I enjoy transforming ideas into interactive and user-friendly web experiences
+                        while continuously strengthening my Java and Data Structures & Algorithms
+                        skills.
+                    </p>
 
-    </nav>
+                    <p>
+                    <p>
+                        I enjoy learning through hands-on projects that strengthen both my development and
+                        problem-solving skills.
+                    </p>
+                    </p>
 
-</header>
+                </div>
+
+                <div class="about-info">
+
+                    <div class="info-card">
+
+                        <h3>🎓 Education</h3>
+
+                        <p>B.Tech Information Technology</p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <h3>💻 Tech Stack</h3>
+
+                        <p>Frontend Development & Java</p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <h3>🚀 Career Goal</h3>
+
+                        <p>Software Development Internship</p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <h3>📍 Current Building</h3>
+
+                        <p>ResumePilot & Portfolio</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="skills">
+
+            <div class="section-title">
+
+                <h2>Skills</h2>
+
+                <p>Technologies I use to build modern web applications.</p>
+
+            </div>
+
+
+
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="projects">
+
+            <div class="section-title">
+
+                <h2>Things I've Built</h2>
+
+                <p>Projects that helped me learn and grow.</p>
+
+            </div>
+
+            <!-- Project cards go here -->
+
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="contact">
+
+            <div class="section-title">
+
+                <h2>Let's Connect</h2>
+
+                <p>I'm always open to learning, collaborating, and new opportunities.</p>
+
+            </div>
+
+            <!-- Contact information goes here -->
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Bhavya Srivastava • Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
