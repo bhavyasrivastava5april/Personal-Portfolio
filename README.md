@@ -34,7 +34,7 @@ Personal-Portfolio
 
 ## 📌 Live Demo
 
-Coming Soon...
+https://bhavyasrivastava5april.github.io/Personal-Portfolio/
 
 ## 📬 Contact
 
