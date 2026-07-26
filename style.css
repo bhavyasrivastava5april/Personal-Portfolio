@@ -311,6 +311,8 @@ header{
     border-radius:15px;
 
     transition:.3s;
+    display:flex;
+    flex-direction:column;
 
 }
 
@@ -336,7 +338,8 @@ header{
 
     line-height:1.7;
 
-    margin-bottom:20px;
+    margin-bottom:15px;
+    min-height:70px;
 
 }
 
@@ -344,11 +347,11 @@ header{
 
     display:flex;
 
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 
     gap:10px;
 
-    margin-bottom:25px;
+    margin:15px 0;
 
 }
 
@@ -368,6 +371,7 @@ header{
 
     display:flex;
 
-    gap:15px;
+    gap: 15px;
+    margin-top:auto;
 
 }
